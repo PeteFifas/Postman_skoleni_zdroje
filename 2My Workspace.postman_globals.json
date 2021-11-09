@@ -1,0 +1,29 @@
+{
+	"id": "8fb07994-7f5e-4b55-8d0e-54f7eec5ef52",
+	"values": [
+		{
+			"key": "TestVariable",
+			"value": "aa",
+			"enabled": true
+		},
+		{
+			"key": "TestVariableInit",
+			"value": "bb",
+			"enabled": true
+		},
+		{
+			"key": "TestVariableCurr",
+			"value": "cc",
+			"enabled": true
+		},
+		{
+			"key": "LoginCz",
+			"value": "dd",
+			"enabled": true
+		}
+	],
+	"name": "My Workspace Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2021-11-09T11:48:29.169Z",
+	"_postman_exported_using": "Postman/9.0.9"
+}
