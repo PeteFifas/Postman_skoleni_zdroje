@@ -3,27 +3,27 @@
 	"values": [
 		{
 			"key": "TestVariable",
-			"value": "abcd",
+			"value": "aa",
 			"enabled": true
 		},
 		{
 			"key": "TestVariableInit",
-			"value": "init",
+			"value": "bb",
 			"enabled": true
 		},
 		{
 			"key": "TestVariableCurr",
-			"value": "",
+			"value": "cc",
 			"enabled": true
 		},
 		{
 			"key": "LoginCz",
-			"value": "přihlásit",
+			"value": "dd",
 			"enabled": true
 		}
 	],
 	"name": "My Workspace Globals",
 	"_postman_variable_scope": "globals",
-	"_postman_exported_at": "2021-11-09T11:46:59.065Z",
+	"_postman_exported_at": "2021-11-09T11:48:29.169Z",
 	"_postman_exported_using": "Postman/9.0.9"
 }
