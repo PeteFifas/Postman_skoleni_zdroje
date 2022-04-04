@@ -1,0 +1,3259 @@
+{
+	"info": {
+		"_postman_id": "ae68c63e-24fb-4778-a58f-88b1660243e8",
+		"name": "Skoleni",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "First calls",
+			"item": [
+				{
+					"name": "GET Accounts",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP Request 2",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP Request 3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Google",
+			"item": [
+				{
+					"name": "POST Google get",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authority",
+								"value": "aa.google.com"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "content-type",
+								"value": "application/x-www-form-urlencoded;charset=UTF-8"
+							},
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "origin",
+								"value": "https://www.google.com"
+							},
+							{
+								"key": "x-client-data",
+								"value": "CKO1yQEIibbJAQiktskBCMG2yQEIqZ3KAQiE0soBCMmOywEIkqHLAQjq8ssBCJ75ywEI54TMAQiljswBCJuPzAEIv57MAQjPoswBCNuizAEIh6TMAQ=="
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-site"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "referer",
+								"value": "https://www.google.com/"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-US,en;q=0.9,cs-CZ;q=0.8,cs;q=0.7"
+							},
+							{
+								"key": "cookie",
+								"value": "CONSENT=YES+srp.gws-20211208-0-RC2.cs+FX+954; __Secure-1PSIDCC=AJi4QfGS2xVe70chGpiFxGbjhzK2A9ImS94q_uQ_nOQSStpmgw5HUywc7THb9TczWZ5oqn-XlXM; HSID=AQrxz8KIKbijucfqF; SSID=AOxNioqaW40T-5h2V; APISID=UgXf7n5dibGu7Umv/AVCNgJ7KBKAg1Oczg; SAPISID=WE9QlUt5hucrUAAp/AaGe3mtPCBqUjYaf6; __Secure-1PAPISID=WE9QlUt5hucrUAAp/AaGe3mtPCBqUjYaf6; __Secure-3PAPISID=WE9QlUt5hucrUAAp/AaGe3mtPCBqUjYaf6; SEARCH_SAMESITE=CgQIhZUB; SID=Igj9AGPmgHDx-IQsYtZ66xb8PjATfa6MspOTdfQz90XtLuz5Ad7I9l5GNqD5DHQ_Jq_-pg.; __Secure-1PSID=Igj9AGPmgHDx-IQsYtZ66xb8PjATfa6MspOTdfQz90XtLuz5f8UoKrOwWtfPEGopwgYJkw.; __Secure-3PSID=Igj9AGPmgHDx-IQsYtZ66xb8PjATfa6MspOTdfQz90XtLuz5g8ymBHQusaEln6zKpNmO9g.; 1P_JAR=2022-03-29-08; NID=511=qzPWrKBpuauyurs2piReUV0DCdGB5P6kExrk6mk0xP_IW5LntuA366IQRIVM04H-L40tL8WSGy0BTrXQrw_n4YhrET6OS6gyx6UZtgWCc5FvqKtf1lZxVVk7-yF72g1nAsDx5RCyU1EN3xp0OOyb1XGpz8qngMnVCRGiSR5A8qCT1k7obsR298cNGGESJewZQwI2wTJQJv3yqJewmSND9qdyeoKq9trJErEcC65wSmivo6AQo9JzoSHxXOAyosC4gwGf2-iEXGvgnYD-LN_A6Xqe4LGHzTNwDOAF0bFEckYrNxhIXLqQiGIuXgqkbfi_lOF8eHsuTkaj-sqTwtzZ9t_WOWMoZmhBFTUQTkGGNCqzz2RYQUTsHadG01KP0gAINH93MCjqhQtgeO4s0acrrA6D5spFRtxIi_nYCH8QcMKHGdWUzf786QT0bfudA7HrHbm7frGPWVwsN5RE9mtU2R3aJQnrTU2L4EGTqkmo5QgSA1bCBuFeIKmde1d_Sg; SIDCC=AJi4QfEyxlcYFWZ06lTfKaWu1Z8sx9JvsRjp-14GOvqYCndxF93lRiKgCl6XXi9nQST0Q--HuAc; __Secure-3PSIDCC=AJi4QfE8iJmDfaGMaGG-Qx7ltg3DOv7HMMDvhg4bOFOmgFi2icniQs8_L7yzV7ogZwapAKQTlOzA"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "f.req=%5B%22og.botreq%22%2Cnull%2C%22%22%2Cnull%2Ctrue%2C0%2Cfalse%5D"
+						},
+						"url": {
+							"raw": "https://aa.google.com/u/0/_/gog/get?rt=j&sourceid=538",
+							"protocol": "https",
+							"host": [
+								"aa",
+								"google",
+								"com"
+							],
+							"path": [
+								"u",
+								"0",
+								"_",
+								"gog",
+								"get"
+							],
+							"query": [
+								{
+									"key": "rt",
+									"value": "j"
+								},
+								{
+									"key": "sourceid",
+									"value": "538"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "regres.in",
+			"item": [
+				{
+					"name": "import req",
+					"item": [
+						{
+							"name": "https://reqres.in/api/users",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "https://reqres.in/api/users",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Principal",
+			"item": [
+				{
+					"name": "GET principal.cz",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.principal.cz/cz/",
+							"protocol": "https",
+							"host": [
+								"www",
+								"principal",
+								"cz"
+							],
+							"path": [
+								"cz",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HTTP Requests",
+			"item": [
+				{
+					"name": "POST users",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Morpheus\",\n    \"job\": \"leader\"\n}"
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT users",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Petr\",\n    \"job\": \"Tester\"\n}\n"
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Users",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Adam\",\n    \"job\": \"manager\"\n}\n"
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/22",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE users",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Params",
+			"item": [
+				{
+					"name": "Get Users params",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2",
+									"description": "poznamka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET regiojet routes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "X-Application-Origin",
+								"value": "WEB"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "X-Currency",
+								"value": "CZK"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "X-Lang",
+								"value": "cs"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "Origin",
+								"value": "https://novy.regiojet.cz"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "cross-site"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://novy.regiojet.cz/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,cs-CZ;q=0.8,cs;q=0.7"
+							}
+						],
+						"url": {
+							"raw": "https://brn-ybus-pubapi.sa.cz/restapi/routes/search/simple?tariffs=REGULAR&toLocationType=CITY&departureDate=2022-03-30&toLocationId=2147875000&fromLocationType=CITY&fromLocationId=10202003/:dom",
+							"protocol": "https",
+							"host": [
+								"brn-ybus-pubapi",
+								"sa",
+								"cz"
+							],
+							"path": [
+								"restapi",
+								"routes",
+								"search",
+								"simple"
+							],
+							"query": [
+								{
+									"key": "tariffs",
+									"value": "REGULAR"
+								},
+								{
+									"key": "toLocationType",
+									"value": "CITY"
+								},
+								{
+									"key": "departureDate",
+									"value": "2022-03-30"
+								},
+								{
+									"key": "toLocationId",
+									"value": "2147875000"
+								},
+								{
+									"key": "fromLocationType",
+									"value": "CITY"
+								},
+								{
+									"key": "fromLocationId",
+									"value": "10202003/:dom"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET regres.in users URI",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users/:id",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "22"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Basic auth",
+					"item": [
+						{
+							"name": "GET mock json",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "Test123",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "userSkoleni",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://2qvvy.mocklab.io/json/1",
+									"protocol": "http",
+									"host": [
+										"2qvvy",
+										"mocklab",
+										"io"
+									],
+									"path": [
+										"json",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST Mock JSON",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 12345,\r\n  \"value\": \"abc-def-ghi\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://2qvvy.mocklab.io/json",
+									"protocol": "http",
+									"host": [
+										"2qvvy",
+										"mocklab",
+										"io"
+									],
+									"path": [
+										"json"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "API Key",
+					"item": [
+						{
+							"name": "POST auth",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+								},
+								"url": {
+									"raw": "https://restful-booker.herokuapp.com/auth",
+									"protocol": "https",
+									"host": [
+										"restful-booker",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"auth"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PUT Restful booker",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+								},
+								"url": {
+									"raw": "https://restful-booker.herokuapp.com/booking/1",
+									"protocol": "https",
+									"host": [
+										"restful-booker",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"booking",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "apikey",
+						"apikey": [
+							{
+								"key": "value",
+								"value": "token=cdda2af84d8a62e",
+								"type": "string"
+							},
+							{
+								"key": "key",
+								"value": "Cookie",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Token",
+					"item": [
+						{
+							"name": "POST gorest users",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "a69dd3dc892e72c9b44fe0843a0e8171c7cfa618775dd8e96e8295895219f5fd",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer ACCESS-TOKEN"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"name\":\"Tenali Ramakrishna\", \"gender\":\"male\", \"email\":\"tenali.ramakrishna@15ce.com\", \"status\":\"active\"}"
+								},
+								"url": {
+									"raw": "https://gorest.co.in/public/v1/users",
+									"protocol": "https",
+									"host": [
+										"gorest",
+										"co",
+										"in"
+									],
+									"path": [
+										"public",
+										"v1",
+										"users"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Headers",
+			"item": [
+				{
+					"name": "GET regres.in users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "JSON",
+			"item": [
+				{
+					"name": "POST rohli.cz cart",
+					"protocolProfileBehavior": {
+						"disableCookies": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authority",
+								"value": "www.rohlik.cz"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-origin",
+								"value": "WEB"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "origin",
+								"value": "https://www.rohlik.cz"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "referer",
+								"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-US,en;q=0.9"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productId\": 1388069,\n    \"quantity\": 1,\n    \"source\": \":ProductCategory:300102000\",\n    \"actionId\": null,\n    \"recipeId\": null\n}"
+						},
+						"url": {
+							"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart",
+							"protocol": "https",
+							"host": [
+								"www",
+								"rohlik",
+								"cz"
+							],
+							"path": [
+								"services",
+								"frontend-service",
+								"v2",
+								"cart"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Var scripting",
+			"item": [
+				{
+					"name": "GET google",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"globalsVar1\", \"globální proměnná\")\r",
+									"pm.collectionVariables.set(\"collectionVar1\", \"proměnná kolekce\")\r",
+									"pm.environment.set(\"environmentVar1\", \"proměnná prostředí\")\r",
+									"pm.variables.set(\"localVar1\", \"lokální proměnná\")"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(pm.globals.get(\"globalsVar1\"))\r",
+									"console.log(pm.collectionVariables.get(\"collectionVar1\"))\r",
+									"console.log(pm.environment.get(\"environmentVar1\"))\r",
+									"console.log(pm.variables.get(\"localVar1\"))\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://google.com",
+							"protocol": "https",
+							"host": [
+								"google",
+								"com"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pre-request scripts",
+			"item": [
+				{
+					"name": "GET regiojet routes - variable",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.variables.set(\"depDate\", \"2022-04-30\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "X-Application-Origin",
+								"value": "WEB"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "X-Currency",
+								"value": "CZK"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "X-Lang",
+								"value": "cs"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "Origin",
+								"value": "https://novy.regiojet.cz"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "cross-site"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://novy.regiojet.cz/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,cs-CZ;q=0.8,cs;q=0.7"
+							}
+						],
+						"url": {
+							"raw": "https://brn-ybus-pubapi.sa.cz/restapi/routes/search/simple?tariffs=REGULAR&toLocationType=CITY&toLocationId=2147875000&fromLocationType=CITY&fromLocationId=10202003&departureDate={{depDate}}",
+							"protocol": "https",
+							"host": [
+								"brn-ybus-pubapi",
+								"sa",
+								"cz"
+							],
+							"path": [
+								"restapi",
+								"routes",
+								"search",
+								"simple"
+							],
+							"query": [
+								{
+									"key": "tariffs",
+									"value": "REGULAR"
+								},
+								{
+									"key": "toLocationType",
+									"value": "CITY"
+								},
+								{
+									"key": "toLocationId",
+									"value": "2147875000"
+								},
+								{
+									"key": "fromLocationType",
+									"value": "CITY"
+								},
+								{
+									"key": "fromLocationId",
+									"value": "10202003"
+								},
+								{
+									"key": "departureDate",
+									"value": "{{depDate}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tests",
+			"item": [
+				{
+					"name": "javascript testy",
+					"item": [
+						{
+							"name": "GET users - test 200 OK",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Response status is 200\", () => {\r",
+											"    pm.response.to.have.status(200);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "https://reqres.in/api/users?page=2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET users - response tests",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"data.page exist\", () => {\r",
+											"    pm.expect(data.page).to.exist;\r",
+											"})\r",
+											"\r",
+											"pm.test(\"data.page is a number\", () => {\r",
+											"    pm.expect(data.page).to.be.a(\"number\");\r",
+											"})\r",
+											"\r",
+											"pm.test(\"data.page is 2\", () => {\r",
+											"    pm.expect(data.page).to.be.equal(2);\r",
+											"})\r",
+											"\r",
+											"\r",
+											"pm.test(\"data.data[0].id is 7\", () => {\r",
+											"    pm.expect(data.data[0].id).to.be.equal(7);\r",
+											"})\r",
+											"\r",
+											"pm.test(\"data.data size is 5\", () => {\r",
+											"    pm.expect(data.data.length).to.be.equal(5);\r",
+											"})\r",
+											"\r",
+											"pm.test(\"data.data[0].email contains regres.in\", () => {\r",
+											"    pm.expect(data.data[0].email).to.contains(\"reres.in\")\r",
+											"})\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "https://reqres.in/api/users?page=2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST register- test 400 NOK",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {\r",
+											"    pm.response.to.have.status(400);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \n}"
+								},
+								"url": {
+									"raw": "https://reqres.in/api/register",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"register"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST register - json response test",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Response is JSON\", () => {\r",
+											"    pm.response.to.be.json;\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \n}"
+								},
+								"url": {
+									"raw": "https://reqres.in/api/register",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"register"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Data transfer",
+					"item": [
+						{
+							"name": "Get Users - data transfer",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "https://gorest.co.in/public/v1/users",
+									"protocol": "https",
+									"host": [
+										"gorest",
+										"co",
+										"in"
+									],
+									"path": [
+										"public",
+										"v1",
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST Rohlik.cz - address autocomplete data transfer",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.environment.set(\"rohlik_address_id\", data.data.id)"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "x-custom-sessionid",
+										"value": "7dbe32f2-2c5b-4871-9f99-60a3df16f95c"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/regal"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"suggestText\": \"Na Hřebenech II 1718/8\",\n    \"suggestHint\": \"Adresa, Praha 4 - Nusle, Česko\",\n    \"country\": \"Česko\",\n    \"countryCode\": \"CZ\",\n    \"region\": \"Hlavní město Praha\",\n    \"city\": \"Praha\",\n    \"street\": \"Na Hřebenech II\",\n    \"houseNumber\": \"1718\",\n    \"streetNumber\": \"8\",\n    \"evidenceNumber\": \"\",\n    \"longitude\": 14.430146454451089,\n    \"latitude\": 50.05145454486651,\n    \"importance\": 0.09419794408814568,\n    \"postalNumber\": \"14000\",\n    \"quarter\": \"Praha 4\",\n    \"valid\": true,\n    \"serviceType\": \"SEZNAM\",\n    \"evidenceNumberResult\": false\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/address/v1/autocomplete/confirm",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"address",
+										"v1",
+										"autocomplete",
+										"confirm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST Rohlik.cz - check address",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"addressId\": {{rohlik_address_id}}}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/delivery-address/check",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"delivery-address",
+										"check"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Test debugging",
+					"item": [
+						{
+							"name": "Get google.com",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"console.debug(\"debug message\")\r",
+											"console.error(\"error message\")\r",
+											"console.info(\"info message\")\r",
+											"console.log(\"log message\")\r",
+											"console.warn(\"warning message\")\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://google.com",
+									"protocol": "https",
+									"host": [
+										"google",
+										"com"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET regres.in users tests",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(\"Request status: \" + pm.response.status);\r",
+									"\r",
+									"pm.collectionVariables.get(\"Test_global\");\r",
+									"pm.globals.get(\"Test_global\");\r",
+									"pm.environment.get(\"user\");\r",
+									"pm.variables.get(\"user\");\r",
+									"\r",
+									"pm.environment.set(\"isEnabled\", \"true\");\r",
+									"pm.globals.set(\"isEnabled\", \"false\");\r",
+									"pm.collectionVariables.set(\"isEnabled\", \"true\");\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"total_pages\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Total is 12\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.total).to.eql(12);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body is correct\", function () {\r",
+									"    pm.response.to.have.body(\"response_body_string\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Content-Type is present\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms, real responseTime: \" + pm.response.responseTime + \"ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"//testuju POST, ze ma 200, 201, 202 \r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});\r",
+									"\r",
+									"//pm.test(\"body.page is 2\", () => {\r",
+									"//    boolean_check;\r",
+									"//})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Collection runner",
+			"item": [
+				{
+					"name": "General",
+					"item": [
+						{
+							"name": "GET rohlik.cz autocomplete address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.environment.set(\"rohlikAddressId\", data.data.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "x-custom-sessionid",
+										"value": "7dbe32f2-2c5b-4871-9f99-60a3df16f95c"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/regal"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"suggestText\": \"Na Hřebenech II 1718/8\",\n    \"suggestHint\": \"Adresa, Praha 4 - Nusle, Česko\",\n    \"country\": \"Česko\",\n    \"countryCode\": \"CZ\",\n    \"region\": \"Hlavní město Praha\",\n    \"city\": \"Praha\",\n    \"street\": \"Na Hřebenech II\",\n    \"houseNumber\": \"1718\",\n    \"streetNumber\": \"8\",\n    \"evidenceNumber\": \"\",\n    \"longitude\": 14.430146454451089,\n    \"latitude\": 50.05145454486651,\n    \"importance\": 0.09419794408814568,\n    \"postalNumber\": \"14000\",\n    \"quarter\": \"Praha 4\",\n    \"valid\": true,\n    \"serviceType\": \"SEZNAM\",\n    \"evidenceNumberResult\": false\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/address/v1/autocomplete/confirm",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"address",
+										"v1",
+										"autocomplete",
+										"confirm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz check address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.environment.set(\"rohlikStoreId\", data.data.availableStores[0].storeId)\r",
+											"pm.environment.set(\"rohlikFullAddress\", data.data.address.fullAddress)\r",
+											"pm.environment.set(\"rohlikStreet\", data.data.address.street)\r",
+											"pm.environment.set(\"rohlikPsc\", data.data.address.postalCode)\r",
+											"pm.environment.set(\"rohlikCity\", data.data.address.city)\r",
+											"\r",
+											"pm.test(\"Data.data is object\", function () {\r",
+											"    pm.expect(data.data).to.be.an('object');\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"addressId\": {{rohlikAddressId}}}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/delivery-address/check",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"delivery-address",
+										"check"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz delivery address set and delete",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									},
+									{
+										"key": "Cookie",
+										"value": "PHPSESSION=fdMHwRzqCMwTRph6twvS0MLWDlQL5iht"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"warehouseId\": {{rohlikStoreId}},\n    \"streetWithNumber\": \"{{rohlikStreet}}\",\n    \"city\": \"{{rohlikCity}}\",\n    \"postalCode\": \"{{rohlikPsc}}\",\n    \"isGeocodeResult\": false,\n    \"id\": {{rohlikAddressId}},\n    \"flatDetails\": {\n        \"floor\": \"\",\n        \"door\": \"\"\n    }\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/delivery-address/set-and-delete",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"delivery-address",
+										"set-and-delete"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz cart",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Data.data.totalprice is a number\", () => {\r",
+											"    pm.expect(data.data.totalPrice).to.be.a('number');\r",
+											"    pm.environment.set(\"rohlikPriceSum\", data.data.totalPrice);\r",
+											"})\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productId\": 1413424,\n    \"quantity\": 1,\n    \"source\": \":ProductCategory:300102000\",\n    \"actionId\": 2972455,\n    \"recipeId\": null\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"v2",
+										"cart"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET rohlik.cz cart review",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"var rohlikPriceSum = pm.variables.get(\"rohlikPriceSum\")\r",
+											"\r",
+											"pm.test(\"Total price is \" + rohlikPriceSum, () => {\r",
+											"    pm.expect(data.data.totalPrice).to.equal(rohlikPriceSum);\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sentry-trace",
+										"value": "e1c874ed50da42baa14ae9443422105a-9ecc6dbbd758c56c-1"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/objednavka/prehled-kosiku"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart-review/check-cart?blockingValidation=false",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"v2",
+										"cart-review",
+										"check-cart"
+									],
+									"query": [
+										{
+											"key": "blockingValidation",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Data Driven testy",
+					"item": [
+						{
+							"name": "GET rohlik.cz autocomplete address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.variables.set(\"rohlikAddressId\", data.data.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "x-custom-sessionid",
+										"value": "7dbe32f2-2c5b-4871-9f99-60a3df16f95c"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/regal"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"suggestText\": \"Na Hřebenech II 1718/8\",\n    \"suggestHint\": \"Adresa, Praha 4 - Nusle, Česko\",\n    \"country\": \"Česko\",\n    \"countryCode\": \"CZ\",\n    \"region\": \"Hlavní město Praha\",\n    \"city\": \"Praha\",\n    \"street\": \"Na Hřebenech II\",\n    \"houseNumber\": \"1718\",\n    \"streetNumber\": \"8\",\n    \"evidenceNumber\": \"\",\n    \"longitude\": 14.430146454451089,\n    \"latitude\": 50.05145454486651,\n    \"importance\": 0.09419794408814568,\n    \"postalNumber\": \"14000\",\n    \"quarter\": \"Praha 4\",\n    \"valid\": true,\n    \"serviceType\": \"SEZNAM\",\n    \"evidenceNumberResult\": false\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/address/v1/autocomplete/confirm",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"address",
+										"v1",
+										"autocomplete",
+										"confirm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz check address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.environment.set(\"rohlikStoreId\", data.data.availableStores[0].storeId)\r",
+											"pm.environment.set(\"rohlikFullAddress\", data.data.address.fullAddress)\r",
+											"pm.environment.set(\"rohlikStreet\", data.data.address.street)\r",
+											"pm.environment.set(\"rohlikPsc\", data.data.address.postalCode)\r",
+											"pm.environment.set(\"rohlikCity\", data.data.address.city)\r",
+											"\r",
+											"pm.test(\"Data.data is object\", function () {\r",
+											"    pm.expect(data.data).to.be.an('object');\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"addressId\": {{rohlikAddressId}}}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/delivery-address/check",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"delivery-address",
+										"check"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz delivery address set and delete",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									},
+									{
+										"key": "Cookie",
+										"value": "PHPSESSION=fdMHwRzqCMwTRph6twvS0MLWDlQL5iht"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"warehouseId\": {{rohlikStoreId}},\n    \"streetWithNumber\": \"{{rohlikStreet}}\",\n    \"city\": \"{{rohlikCity}}\",\n    \"postalCode\": \"{{rohlikPsc}}\",\n    \"isGeocodeResult\": false,\n    \"id\": {{rohlikAddressId}},\n    \"flatDetails\": {\n        \"floor\": \"\",\n        \"door\": \"\"\n    }\n}"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/delivery-address/set-and-delete",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"delivery-address",
+										"set-and-delete"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz cart1",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Data.data.totalprice is a number\", () => {\r",
+											"    pm.expect(data.data.totalPrice).to.be.a('number');\r",
+											"    pm.variables.set(\"rohlikPriceSum\", data.data.totalPrice);\r",
+											"})\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productId\": {{firstItemId}},\n    \"quantity\": 1,\n    \"source\": \": ProductCategory:300102000\",\n    \"actionId\": null,\n    \"recipeId\": null\n}\n"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"v2",
+										"cart"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST rohlik.cz cart2",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Data.data.totalprice is a number\", () => {\r",
+											"    pm.expect(data.data.totalPrice).to.be.a('number');\r",
+											"    pm.variables.set(\"rohlikPriceSum\", data.data.totalPrice);\r",
+											"})\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "content-type",
+										"value": "application/json"
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "origin",
+										"value": "https://www.rohlik.cz"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/c300102000-ovoce-a-zelenina"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productId\": {{secondItemId}},\n    \"quantity\": 1,\n    \"source\": \": ProductCategory:300102000\",\n    \"actionId\": null,\n    \"recipeId\": null\n}\n"
+								},
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"v2",
+										"cart"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET rohlik.cz cart review",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var data = pm.response.json();\r",
+											"\r",
+											"var rohlikPriceSum = pm.variables.get(\"rohlikPriceSum\")\r",
+											"\r",
+											"pm.test(\"Total price is \" + rohlikPriceSum, () => {\r",
+											"    pm.expect(data.data.totalPrice).to.equal(rohlikPriceSum);\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authority",
+										"value": "www.rohlik.cz"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "x-origin",
+										"value": "WEB"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "user-agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sentry-trace",
+										"value": "e1c874ed50da42baa14ae9443422105a-9ecc6dbbd758c56c-1"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "accept",
+										"value": "*/*"
+									},
+									{
+										"key": "sec-fetch-site",
+										"value": "same-origin"
+									},
+									{
+										"key": "sec-fetch-mode",
+										"value": "cors"
+									},
+									{
+										"key": "sec-fetch-dest",
+										"value": "empty"
+									},
+									{
+										"key": "referer",
+										"value": "https://www.rohlik.cz/objednavka/prehled-kosiku"
+									},
+									{
+										"key": "accept-language",
+										"value": "en-US,en;q=0.9"
+									}
+								],
+								"url": {
+									"raw": "https://www.rohlik.cz/services/frontend-service/v2/cart-review/check-cart?blockingValidation=false",
+									"protocol": "https",
+									"host": [
+										"www",
+										"rohlik",
+										"cz"
+									],
+									"path": [
+										"services",
+										"frontend-service",
+										"v2",
+										"cart-review",
+										"check-cart"
+									],
+									"query": [
+										{
+											"key": "blockingValidation",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mock",
+			"item": [
+				{
+					"name": "GET regres.in mock example",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+							},
+							{
+								"key": "Referer",
+								"value": "https://reqres.in/"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://c3017e37-447d-4033-95b6-d576c14d2613.mock.pstmn.io/api/users",
+							"protocol": "https",
+							"host": [
+								"c3017e37-447d-4033-95b6-d576c14d2613",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GET regres.in mock example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\""
+									},
+									{
+										"key": "Referer",
+										"value": "https://reqres.in/"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "https://reqres.in/api/users",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": null,
+							"cookie": [],
+							"body": "{\r\n    \"info\": \"právě jsi provolal mock a dostal odpověď\"\r\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "HTTP Request 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Playground",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.google.com/{{Test_global}}?user={{user}}&test=AHOJ",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						"{{Test_global}}"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "{{user}}"
+						},
+						{
+							"key": "test",
+							"value": "AHOJ"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Test_global",
+			"value": "aaaa",
+			"type": "string"
+		},
+		{
+			"key": "collectionVar1",
+			"value": ""
+		},
+		{
+			"key": "isEnabled",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "0758a265-38ac-46ec-8b71-88814ae02973",
+		"name": "Kolekce pro import",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"item": [
+				{
+					"name": "Test request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Test2",
+			"item": []
+		}
+	]
+}

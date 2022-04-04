@@ -1,0 +1,185 @@
+{
+	"id": "431ef9f0-eaca-4a2b-8d76-57c564d1a268",
+	"name": "Skoleni",
+	"timestamp": "2022-03-29T14:05:12.647Z",
+	"collection_id": "18237009-ae68c63e-24fb-4778-a58f-88b1660243e8",
+	"folder_id": "18237009-ce5ddc6a-4ad8-48c3-bcd0-9888fc5954a0",
+	"environment_id": "18237009-6f289498-20ea-4e26-ba44-27fa1813ead2",
+	"totalPass": 6,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "0b4c4d60-6b6d-46dd-8be3-6f344025fd08",
+			"name": "GET rohlik.cz autocomplete address",
+			"url": "https://www.rohlik.cz/services/frontend-service/address/v1/autocomplete/confirm",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2a6f2b3f-ceb2-416c-b755-100c59e8cbbe",
+			"name": "POST rohlik.cz check address",
+			"url": "https://www.rohlik.cz/services/frontend-service/delivery-address/check",
+			"time": 264,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Data.data is object": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data.data is object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				264
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Data.data is object": true
+				}
+			]
+		},
+		{
+			"id": "b0aebc48-fa14-4581-bd03-dcb75469a3e1",
+			"name": "POST rohlik.cz delivery address set and delete",
+			"url": "https://www.rohlik.cz/services/frontend-service/delivery-address/set-and-delete",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17aafaa5-9dae-48c4-80c5-2c27fa674c21",
+			"name": "POST rohlik.cz cart",
+			"url": "https://www.rohlik.cz/services/frontend-service/v2/cart",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Data.data.totalprice is a number": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data.data.totalprice is a number": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Data.data.totalprice is a number": true
+				}
+			]
+		},
+		{
+			"id": "d52ef012-1efb-40d2-9c04-f1ffb6dc0ecc",
+			"name": "GET rohlik.cz cart review",
+			"url": "https://www.rohlik.cz/services/frontend-service/v2/cart-review/check-cart?blockingValidation=false",
+			"time": 154,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Total price is 97.58": false
+			},
+			"testPassFailCounts": {
+				"Total price is 97.58": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				154
+			],
+			"allTests": [
+				{
+					"Total price is 97.58": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 718,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b4c4d60-6b6d-46dd-8be3-6f344025fd08",
+				"method": "POST"
+			},
+			{
+				"id": "2a6f2b3f-ceb2-416c-b755-100c59e8cbbe",
+				"method": "POST"
+			},
+			{
+				"id": "b0aebc48-fa14-4581-bd03-dcb75469a3e1",
+				"method": "POST"
+			},
+			{
+				"id": "17aafaa5-9dae-48c4-80c5-2c27fa674c21",
+				"method": "POST"
+			},
+			{
+				"id": "d52ef012-1efb-40d2-9c04-f1ffb6dc0ecc",
+				"method": "GET"
+			}
+		]
+	}
+}

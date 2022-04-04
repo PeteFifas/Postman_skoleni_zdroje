@@ -1,0 +1,27 @@
+{
+	"id": "bf633524-2b00-4680-80db-2316e28751c8",
+	"values": [
+		{
+			"key": "Test_global",
+			"value": "123456",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "globalsVar1",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "isEnabled",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-04-04T20:42:26.916Z",
+	"_postman_exported_using": "Postman/9.15.8"
+}
